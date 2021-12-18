@@ -1,2 +1,3 @@
 # DreamJob
- uwu
+WE STRIVE FOR SUCCESS AND ONLY FOR SUCCESS!
+( ͡° ͜ʖ ͡°)
