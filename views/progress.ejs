@@ -1,7 +1,127 @@
-<p>Work in progress</p>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+      background-color: rgb(0, 7, 45);
+      padding: 10px;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+    }
+    
+
+    nav {
+      float: left;
+      width: 30%;
+      height: 400px; 
+      background: rgb(154, 140, 152);
+      padding: 20px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: rgb(201, 173, 167);
+      height: 400px;
+    }
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    footer {
+      background-color: rgb(0, 7, 45);
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+
+</head>
+<body>
+<div style="text-align:center"><h1>Recruitment Portal</h1></div>
+
+<header>
+<h2>Make a connection!</h2>
+</header>
+
+<section>
+<nav>
 <ul>
-    <li><a href="https://www.learnjavaonline.org/">Learn Java</a></li>
-    <li><a href="https://www.learnpython.org/">Learn Python</a></li>
-    <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Learn JavaScript</a></li>
-    <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Learn Web Design</a></li>
-  </ul>
+    <form action="javascript:alert('Hello there, I am searching...');">
+
+        <b><p>I am looking for:</p></b>
+        <input type="radio" id="html" name="look_for" value="Intern">
+        <label for="html">Interns</label><br>
+        <input type="radio" id="css" name="look_for" value="Full-time Employee">
+        <label for="css">Full-time Employees</label><br>
+        <input type="radio" id="javascript" name="look_for" value="Part-time Employee">
+        <label for="javascript">Part-time Employees</label>
+      
+        <br>  
+      
+        <b><p>Find a:</p></b>
+        <input type="radio" id="position1" name="position" value="Software developer">
+        <label for="position1">Software developer</label><br>
+        <input type="radio" id="position2" name="position" value="Data analyst">
+        <label for="position2">Data analyst</label><br>  
+        <input type="radio" id="position3" name="position" value="Cyber security">
+        <label for="position3">Cybersecurity analyst</label><br>
+        <input type="radio" id="position1" name="position" value="Business analyst">
+        <label for="position4">Business analyst</label><br>
+        <input type="radio" id="position2" name="position" value="Web Developer">
+        <label for="position5">Web Developer</label><br>  
+        <input type="radio" id="position3" name="position" value="UX Designer">
+        <label for="position6">UX Designer </label><br><br>
+        <input type="submit" value="Search">
+      </form>
+      
+  
+  <br>
+
+</ul>
+</nav>
+
+<article>
+
+    <p>Work in progress</p>
+
+    <ul>
+        <li><a href="https://www.learnjavaonline.org/">Learn Java</a></li>
+        <li><a href="https://www.learnpython.org/">Learn Python</a></li>
+        <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Learn JavaScript</a></li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/">Learn Web Design</a></li>
+      </ul>
+
+</article>
+</section>
+
+<footer>
+<h2><p>We found!</p></h2>
+
+<a href="https:www.tamusa.edu/currentstudents/">Texas A&M Students</a>
+
+</footer>
+<script src = "app.js"></script>
+</body>
