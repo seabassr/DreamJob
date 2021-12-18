@@ -1,0 +1,27 @@
+{
+  "name": "dreamjob",
+  "version": "1.0.0",
+  "description": "WE STRIVE FOR SUCCESS AND ONLY FOR SUCCESS! ( ͡° ͜ʖ ͡°)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seabassr/DreamJob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seabassr/DreamJob/issues"
+  },
+  "homepage": "https://github.com/seabassr/DreamJob#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "save": "^2.4.0"
+  }
+}
