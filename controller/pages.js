@@ -15,4 +15,8 @@ router.get('/forms', (req, res) => {
     res.render('forms');
 });
 
+router.get('/resources', (req, res) => {
+    res.render('resources');
+});
+
 module.exports = router;
